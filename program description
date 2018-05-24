@@ -1,0 +1,4 @@
+This program is a simple implementation for a p2p network. There are 4 main functions. First, when a p2p net is built, 
+each peer can ping its successors to ensure they are alive. Second, when you request a file, it can help you find the location.
+Third, when you need to quit the current peer, it can tell its ex-peer to update the new successors. Fourth, if a peer quit 
+without leave any message, the network can find which peer is left, and update the net.
